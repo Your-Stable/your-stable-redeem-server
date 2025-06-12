@@ -1,0 +1,19 @@
+{
+  "name": "your-stable-redeem-server",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "pino": "^9.7.0",
+    "pino-pretty": "^13.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "cron": "^4.3.1",
+    "dotenv": "^16.5.0",
+    "your-stable-sdk": "^0.1.14"
+  }
+}
