@@ -37,13 +37,15 @@ export class Server {
 
     const firstTicketIndex = Number(expiredRedemptionTickets[0].ticket_id);
     const batches = Math.ceil(
-      Number(
+      (Number(
         expiredRedemptionTickets[expiredRedemptionTickets.length - 1]
           ?.ticket_id || 0,
       ) -
         firstTicketIndex +
-        1 / DEFAULT_BATCH_SIZE,
+        1) /
+        DEFAULT_BATCH_SIZE,
     );
+    logger.info({ expiredRedemptionTickets });
     logger.info({ batches });
     for (let index = 0; index < batches; index++) {
       const batchStart =
@@ -51,7 +53,12 @@ export class Server {
         DEFAULT_BATCH_SIZE * index;
       const batchSize = BigInt(DEFAULT_BATCH_SIZE);
 
-      YourStableClient.batchRedeem(tx, "USDC", BigInt(batchStart), batchSize);
+      YourStableClient.batchRedeemMoveCall(
+        tx,
+        "USDC",
+        BigInt(batchStart),
+        batchSize,
+      );
     }
 
     const dryRunResponse = await dryRun(

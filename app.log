@@ -34,3 +34,11 @@
 {"level":30,"time":1749711360559,"pid":96949,"hostname":"Lins-MacBook-Pro.local","msg":"Finish"}
 {"level":30,"time":1749711420448,"pid":96949,"hostname":"Lins-MacBook-Pro.local","msg":"No ticket to redeem"}
 {"level":30,"time":1749711420450,"pid":96949,"hostname":"Lins-MacBook-Pro.local","msg":"Finish"}
+{"level":30,"time":1750611942411,"pid":35314,"hostname":"Lins-MacBook-Pro.local","batches":3}
+{"level":30,"time":1750611962290,"pid":35438,"hostname":"Lins-MacBook-Pro.local","batches":3}
+{"level":30,"time":1750612105617,"pid":36016,"hostname":"Lins-MacBook-Pro.local","expiredRedemptionTickets":[{"ticket_id":"3","recipient":"c5f9b77a07c38acc5418008dfe69255872d45e3d2334e1f52a530d1e4ad52866","balance":"2799463999","time_to_redeem":"1750581824023"},{"ticket_id":"4","recipient":"c5f9b77a07c38acc5418008dfe69255872d45e3d2334e1f52a530d1e4ad52866","balance":"7400635000","time_to_redeem":"1750603932151"},{"ticket_id":"5","recipient":"c5f9b77a07c38acc5418008dfe69255872d45e3d2334e1f52a530d1e4ad52866","balance":"2644487000","time_to_redeem":"1750604169211"}]}
+{"level":30,"time":1750612105626,"pid":36016,"hostname":"Lins-MacBook-Pro.local","batches":3}
+{"level":30,"time":1750612294160,"pid":36162,"hostname":"Lins-MacBook-Pro.local","expiredRedemptionTickets":[{"ticket_id":"3","recipient":"c5f9b77a07c38acc5418008dfe69255872d45e3d2334e1f52a530d1e4ad52866","balance":"2799463999","time_to_redeem":"1750581824023"},{"ticket_id":"4","recipient":"c5f9b77a07c38acc5418008dfe69255872d45e3d2334e1f52a530d1e4ad52866","balance":"7400635000","time_to_redeem":"1750603932151"},{"ticket_id":"5","recipient":"c5f9b77a07c38acc5418008dfe69255872d45e3d2334e1f52a530d1e4ad52866","balance":"2644487000","time_to_redeem":"1750604169211"}]}
+{"level":30,"time":1750612294170,"pid":36162,"hostname":"Lins-MacBook-Pro.local","batches":1}
+{"level":30,"time":1750612296173,"pid":36162,"hostname":"Lins-MacBook-Pro.local","response":{"digest":"2tfNPQrSj33EWgNfH3pAUYfVq1W6AjQsnei9DPK8wgDu","confirmedLocalExecution":false}}
+{"level":30,"time":1750612305936,"pid":36169,"hostname":"Lins-MacBook-Pro.local","msg":"No ticket to redeem"}
