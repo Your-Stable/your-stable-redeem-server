@@ -42,3 +42,5 @@
 {"level":30,"time":1750612294170,"pid":36162,"hostname":"Lins-MacBook-Pro.local","batches":1}
 {"level":30,"time":1750612296173,"pid":36162,"hostname":"Lins-MacBook-Pro.local","response":{"digest":"2tfNPQrSj33EWgNfH3pAUYfVq1W6AjQsnei9DPK8wgDu","confirmedLocalExecution":false}}
 {"level":30,"time":1750612305936,"pid":36169,"hostname":"Lins-MacBook-Pro.local","msg":"No ticket to redeem"}
+{"level":30,"time":1751358883438,"pid":71112,"hostname":"Lins-MacBook-Pro.local","msg":"No ticket to redeem"}
+{"level":30,"time":1751358903903,"pid":71130,"hostname":"Lins-MacBook-Pro.local","msg":"No ticket to redeem"}

@@ -19,7 +19,7 @@ const keypair = Ed25519Keypair.fromSecretKey(secretKey);
 //   const client = new SuiClient({ url: getFullnodeUrl("mainnet") });
 //   const yourStableClient = await YourStableClient.initialize(
 //     client,
-//     "0x26c842736665d461bd9a73c7a11ac69d64ec14015fdb5fd8f3c04c881a993f6a::jusd::JUSD",
+//     "0x5de877a152233bdd59c7269e2b710376ca271671e9dd11076b1ff261b2fd113c::up_usd::UP_USD",
 //   );
 //   const server = new Server(keypair, yourStableClient);
 //   await server.batchRedeem();
@@ -31,7 +31,7 @@ const job = new CronJob("*/1 * * * *", async function () {
   const client = new SuiClient({ url: getFullnodeUrl("mainnet") });
   const yourStableClient = await YourStableClient.initialize(
     client,
-    "0x26c842736665d461bd9a73c7a11ac69d64ec14015fdb5fd8f3c04c881a993f6a::jusd::JUSD",
+    "0x5de877a152233bdd59c7269e2b710376ca271671e9dd11076b1ff261b2fd113c::up_usd::UP_USD",
   );
   const server = new Server(keypair, yourStableClient);
   try {
